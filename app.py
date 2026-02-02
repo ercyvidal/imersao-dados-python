@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-path_data = "data/dados-imersao-final.csv"
+path_data = "dados-imersao-final.csv"
 print("Lendo arquivo de:", path_data)
 df = pd.read_csv(path_data)
 print("Dados carregados com sucesso. Número de registros:", df.shape[0])
