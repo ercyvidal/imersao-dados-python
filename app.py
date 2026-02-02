@@ -6,7 +6,6 @@ ssl._create_default_https_context = lambda: ssl.create_default_context(cafile=ce
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import pycounter as pc
 
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
